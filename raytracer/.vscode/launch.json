@@ -1,0 +1,9 @@
+{
+    "type": "gdb",
+    "request": "attach",
+    "name": "Attach to gdbserver",
+    "executable": "./ray_tracer",
+    "target": "X.X.X.X:9999",
+    "remote": true,
+    "cwd": "${workspaceRoot}"
+}
